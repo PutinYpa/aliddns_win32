@@ -1,0 +1,2 @@
+20170112:初始版本，从openwrt luci-aliddns 移植，全部代码参考aliddns脚本，其中hmac-sha1-base64哈希算法从网上获得，curl采用官方win32版本。
+20170113：更改了解析当前域名方法，改ping方式为nslookup，并且直接使用阿里DNS服务器解析，解决了解析当前DNS延迟问题。
